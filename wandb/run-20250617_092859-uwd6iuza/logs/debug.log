@@ -1,0 +1,34 @@
+2025-06-17 09:28:59,639 INFO    MainThread:56351 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-06-17 09:28:59,639 INFO    MainThread:56351 [wandb_setup.py:_flush():67] Configure stats pid to 56351
+2025-06-17 09:28:59,639 INFO    MainThread:56351 [wandb_setup.py:_flush():67] Loading settings from /Users/zhongyeah/.config/wandb/settings
+2025-06-17 09:28:59,639 INFO    MainThread:56351 [wandb_setup.py:_flush():67] Loading settings from /Users/zhongyeah/Documents/Research/Ban/model/wandb/settings
+2025-06-17 09:28:59,639 INFO    MainThread:56351 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-06-17 09:28:59,639 INFO    MainThread:56351 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /Users/zhongyeah/Documents/Research/Ban/model/wandb/run-20250617_092859-uwd6iuza/logs/debug.log
+2025-06-17 09:28:59,640 INFO    MainThread:56351 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /Users/zhongyeah/Documents/Research/Ban/model/wandb/run-20250617_092859-uwd6iuza/logs/debug-internal.log
+2025-06-17 09:28:59,640 INFO    MainThread:56351 [wandb_init.py:init():761] calling init triggers
+2025-06-17 09:28:59,640 INFO    MainThread:56351 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'architecture': 'ResNet18', 'dataset': 'robot_state', 'epochs': 50, 'batch_size': 32, 'learning_rate': 0.001, 'weight_decay': 1e-05, 'optimizer': 'Adam', 'scheduler': 'ReduceLROnPlateau', '_wandb': {}}
+2025-06-17 09:28:59,640 INFO    MainThread:56351 [wandb_init.py:init():784] starting backend
+2025-06-17 09:28:59,640 INFO    MainThread:56351 [wandb_init.py:init():788] sending inform_init request
+2025-06-17 09:28:59,667 INFO    MainThread:56351 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-06-17 09:28:59,667 INFO    MainThread:56351 [wandb_init.py:init():798] backend started and connected
+2025-06-17 09:28:59,669 INFO    MainThread:56351 [wandb_init.py:init():891] updated telemetry
+2025-06-17 09:28:59,670 INFO    MainThread:56351 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-06-17 09:30:04,672 WARNING MainThread:56351 [wandb_init.py:init():1472] interrupted
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/txt/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1468, in init
+    return wi.init(run_settings, run_config)
+  File "/opt/anaconda3/envs/txt/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 941, in init
+    result = wait_with_progress(
+  File "/opt/anaconda3/envs/txt/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 24, in wait_with_progress
+    return wait_all_with_progress(
+  File "/opt/anaconda3/envs/txt/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 87, in wait_all_with_progress
+    return asyncio_compat.run(progress_loop_with_timeout)
+  File "/opt/anaconda3/envs/txt/lib/python3.10/site-packages/wandb/sdk/lib/asyncio_compat.py", line 30, in run
+    return future.result()
+  File "/opt/anaconda3/envs/txt/lib/python3.10/concurrent/futures/_base.py", line 453, in result
+    self._condition.wait(timeout)
+  File "/opt/anaconda3/envs/txt/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+2025-06-17 09:30:05,330 INFO    MsgRouterThr:56351 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.

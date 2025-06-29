@@ -1,0 +1,306 @@
+2025-06-17 14:42:53 INFO Closing mailbox, abandoning 0 handles.
+2025-06-25 08:38:00 INFO open for scan: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_doub/wandb/offline-run-20250625_042506-09hphtqq/run-09hphtqq.wandb
+2025-06-25 08:38:01 INFO watching files in: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_doub/wandb/offline-run-20250625_042506-09hphtqq/files
+2025-06-25 08:38:01 INFO run started: 09hphtqq with start time 1750796707.300725
+2025-06-25 08:38:01 INFO saving file wandb-metadata.json with policy now
+2025-06-25 08:38:01 INFO saving file wandb-metadata.json with policy now
+2025-06-25 08:38:01 INFO saving file requirements.txt with policy now
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file best_model_10_doub.pth with policy live
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file best_model_10_doub.pth with policy live
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO saving file wandb-summary.json with policy end
+2025-06-25 08:38:01 INFO shutting down sender
+2025-06-25 08:38:02 INFO file/dir modified: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_doub/wandb/offline-run-20250625_042506-09hphtqq/files/output.log
+2025-06-25 08:38:02 INFO file/dir created: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_doub/wandb/offline-run-20250625_042506-09hphtqq/files/wandb-summary.json
+2025-06-25 08:38:02 INFO Uploaded file /var/folders/mg/s7749k9n0b7f014q7qyybpcc0000gn/T/tmpuho7bxjwwandb/gydxv844-wandb-metadata.json
+2025-06-25 08:38:02 INFO Uploaded file /var/folders/mg/s7749k9n0b7f014q7qyybpcc0000gn/T/tmpuho7bxjwwandb/ng369fsd-requirements.txt
+2025-06-25 08:38:03 INFO Uploaded file /var/folders/mg/s7749k9n0b7f014q7qyybpcc0000gn/T/tmpuho7bxjwwandb/26zmoi03-wandb-metadata.json
+2025-06-25 08:38:04 INFO file/dir modified: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_doub/wandb/offline-run-20250625_042506-09hphtqq/files/output.log
+2025-06-25 08:38:04 INFO Uploaded file /var/folders/mg/s7749k9n0b7f014q7qyybpcc0000gn/T/tmpuho7bxjwwandb/fi017gp8-best_model_10_doub.pth
+2025-06-25 08:38:05 INFO shutting down directory watcher
+2025-06-25 08:38:06 INFO file/dir modified: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_doub/wandb/offline-run-20250625_042506-09hphtqq/files/output.log
+2025-06-25 08:38:06 INFO scan: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_doub/wandb/offline-run-20250625_042506-09hphtqq/files
+2025-06-25 08:38:06 INFO scan save: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_doub/wandb/offline-run-20250625_042506-09hphtqq/files/requirements.txt requirements.txt
+2025-06-25 08:38:06 INFO scan save: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_doub/wandb/offline-run-20250625_042506-09hphtqq/files/output.log output.log
+2025-06-25 08:38:06 INFO scan save: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_doub/wandb/offline-run-20250625_042506-09hphtqq/files/config.yaml config.yaml
+2025-06-25 08:38:06 INFO scan save: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_doub/wandb/offline-run-20250625_042506-09hphtqq/files/wandb-summary.json wandb-summary.json
+2025-06-25 08:38:06 INFO scan save: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_doub/wandb/offline-run-20250625_042506-09hphtqq/files/best_model_10_doub.pth best_model_10_doub.pth
+2025-06-25 08:38:06 INFO scan save: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_doub/wandb/offline-run-20250625_042506-09hphtqq/files/wandb-metadata.json wandb-metadata.json
+2025-06-25 08:38:06 INFO shutting down file pusher
+2025-06-25 08:38:06 INFO waiting for file pusher
+2025-06-25 08:38:06 INFO Uploaded file /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_doub/wandb/offline-run-20250625_042506-09hphtqq/files/config.yaml
+2025-06-25 08:38:06 INFO Uploaded file /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_doub/wandb/offline-run-20250625_042506-09hphtqq/files/output.log
+2025-06-25 08:38:07 INFO Uploaded file /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_doub/wandb/offline-run-20250625_042506-09hphtqq/files/wandb-summary.json
+2025-06-25 08:38:07 INFO file stream finish called
+2025-06-25 08:38:10 INFO file stream finish is done
+2025-06-25 08:38:12 INFO Closing mailbox, abandoning 0 handles.
+2025-06-25 13:04:40 INFO open for scan: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_one/wandb/offline-run-20250625_120941-vck3gf95/run-vck3gf95.wandb
+2025-06-25 13:04:57 INFO Closing mailbox, abandoning 0 handles.
+2025-06-25 13:05:01 INFO open for scan: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_one/wandb/offline-run-20250625_120941-vck3gf95/run-vck3gf95.wandb
+2025-06-25 13:05:02 INFO watching files in: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_one/wandb/offline-run-20250625_120941-vck3gf95/files
+2025-06-25 13:05:02 INFO run started: vck3gf95 with start time 1750824583.823513
+2025-06-25 13:05:02 INFO saving file wandb-metadata.json with policy now
+2025-06-25 13:05:02 INFO saving file wandb-metadata.json with policy now
+2025-06-25 13:05:02 INFO saving file requirements.txt with policy now
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file best_model_10_one.pth with policy live
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file best_model_10_one.pth with policy live
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file best_model_10_one.pth with policy live
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file best_model_10_one.pth with policy live
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file best_model_10_one.pth with policy live
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file best_model_10_one.pth with policy live
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file best_model_10_one.pth with policy live
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file best_model_10_one.pth with policy live
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file best_model_10_one.pth with policy live
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file best_model_10_one.pth with policy live
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file best_model_10_one.pth with policy live
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file best_model_10_one.pth with policy live
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:02 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file best_model_10_one.pth with policy live
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file best_model_10_one.pth with policy live
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO saving file wandb-summary.json with policy end
+2025-06-25 13:05:03 INFO shutting down sender
+2025-06-25 13:05:03 INFO file/dir modified: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_one/wandb/offline-run-20250625_120941-vck3gf95/files/output.log
+2025-06-25 13:05:03 INFO file/dir created: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_one/wandb/offline-run-20250625_120941-vck3gf95/files/wandb-summary.json
+2025-06-25 13:05:04 INFO Uploaded file /var/folders/mg/s7749k9n0b7f014q7qyybpcc0000gn/T/tmpdksh04zewandb/41sebt38-wandb-metadata.json
+2025-06-25 13:05:04 INFO Uploaded file /var/folders/mg/s7749k9n0b7f014q7qyybpcc0000gn/T/tmpdksh04zewandb/k46i3hwb-requirements.txt
+2025-06-25 13:05:05 INFO file/dir modified: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_one/wandb/offline-run-20250625_120941-vck3gf95/files/output.log
+2025-06-25 13:05:05 INFO Uploaded file /var/folders/mg/s7749k9n0b7f014q7qyybpcc0000gn/T/tmpdksh04zewandb/pc0shrwf-wandb-metadata.json
+2025-06-25 13:05:06 INFO shutting down directory watcher
+2025-06-25 13:05:07 INFO file/dir modified: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_one/wandb/offline-run-20250625_120941-vck3gf95/files/output.log
+2025-06-25 13:05:07 INFO scan: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_one/wandb/offline-run-20250625_120941-vck3gf95/files
+2025-06-25 13:05:07 INFO scan save: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_one/wandb/offline-run-20250625_120941-vck3gf95/files/requirements.txt requirements.txt
+2025-06-25 13:05:07 INFO scan save: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_one/wandb/offline-run-20250625_120941-vck3gf95/files/output.log output.log
+2025-06-25 13:05:07 INFO scan save: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_one/wandb/offline-run-20250625_120941-vck3gf95/files/config.yaml config.yaml
+2025-06-25 13:05:07 INFO scan save: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_one/wandb/offline-run-20250625_120941-vck3gf95/files/wandb-summary.json wandb-summary.json
+2025-06-25 13:05:07 INFO scan save: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_one/wandb/offline-run-20250625_120941-vck3gf95/files/best_model_10_one.pth best_model_10_one.pth
+2025-06-25 13:05:07 INFO scan save: /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_one/wandb/offline-run-20250625_120941-vck3gf95/files/wandb-metadata.json wandb-metadata.json
+2025-06-25 13:05:07 INFO shutting down file pusher
+2025-06-25 13:05:07 INFO waiting for file pusher
+2025-06-25 13:05:08 INFO Uploaded file /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_one/wandb/offline-run-20250625_120941-vck3gf95/files/config.yaml
+2025-06-25 13:05:09 INFO Uploaded file /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_one/wandb/offline-run-20250625_120941-vck3gf95/files/wandb-summary.json
+2025-06-25 13:05:09 INFO Uploaded file /Users/zhongyeah/Documents/Research/Ban/model/wandb_logs_10_one/wandb/offline-run-20250625_120941-vck3gf95/files/output.log
+2025-06-25 13:07:28 INFO Uploaded file /var/folders/mg/s7749k9n0b7f014q7qyybpcc0000gn/T/tmpdksh04zewandb/6gw2aylb-best_model_10_one.pth
+2025-06-25 13:07:29 INFO file stream finish called
+2025-06-25 13:07:29 INFO file stream finish is done
+2025-06-25 13:07:30 INFO Closing mailbox, abandoning 0 handles.

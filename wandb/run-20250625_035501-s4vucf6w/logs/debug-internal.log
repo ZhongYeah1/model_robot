@@ -1,0 +1,8 @@
+{"time":"2025-06-25T03:55:01.075014+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/zhongyeah/Documents/Research/Ban/model/wandb/run-20250625_035501-s4vucf6w/logs/debug-core.log"}
+{"time":"2025-06-25T03:55:01.182126+08:00","level":"INFO","msg":"created new stream","id":"s4vucf6w"}
+{"time":"2025-06-25T03:55:01.182178+08:00","level":"INFO","msg":"stream: started","id":"s4vucf6w"}
+{"time":"2025-06-25T03:55:01.182195+08:00","level":"INFO","msg":"handler: started","stream_id":"s4vucf6w"}
+{"time":"2025-06-25T03:55:01.182192+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"s4vucf6w"}
+{"time":"2025-06-25T03:55:01.182228+08:00","level":"INFO","msg":"sender: started","stream_id":"s4vucf6w"}
+{"time":"2025-06-25T03:55:31.182711+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-06-25T03:56:03.3838+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}

@@ -1,0 +1,6 @@
+{"time":"2025-06-17T09:24:17.561719+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/zhongyeah/Documents/Research/Ban/model/wandb/run-20250617_092417-xfs3nt54/logs/debug-core.log"}
+{"time":"2025-06-17T09:24:17.668883+08:00","level":"INFO","msg":"created new stream","id":"xfs3nt54"}
+{"time":"2025-06-17T09:24:17.668921+08:00","level":"INFO","msg":"stream: started","id":"xfs3nt54"}
+{"time":"2025-06-17T09:24:17.668938+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"xfs3nt54"}
+{"time":"2025-06-17T09:24:17.668942+08:00","level":"INFO","msg":"sender: started","stream_id":"xfs3nt54"}
+{"time":"2025-06-17T09:24:17.668979+08:00","level":"INFO","msg":"handler: started","stream_id":"xfs3nt54"}

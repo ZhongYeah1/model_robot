@@ -1,0 +1,9 @@
+{"time":"2025-06-17T09:28:59.67199+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/zhongyeah/Documents/Research/Ban/model/wandb/run-20250617_092859-uwd6iuza/logs/debug-core.log"}
+{"time":"2025-06-17T09:28:59.781115+08:00","level":"INFO","msg":"created new stream","id":"uwd6iuza"}
+{"time":"2025-06-17T09:28:59.781154+08:00","level":"INFO","msg":"stream: started","id":"uwd6iuza"}
+{"time":"2025-06-17T09:28:59.781354+08:00","level":"INFO","msg":"handler: started","stream_id":"uwd6iuza"}
+{"time":"2025-06-17T09:28:59.781571+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"uwd6iuza"}
+{"time":"2025-06-17T09:28:59.781596+08:00","level":"INFO","msg":"sender: started","stream_id":"uwd6iuza"}
+{"time":"2025-06-17T09:29:29.783896+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-06-17T09:30:01.962627+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-06-17T09:30:05.333422+08:00","level":"INFO","msg":"stream: closing","id":"uwd6iuza"}
