@@ -207,6 +207,43 @@ def evaluate(model, loader, criterion, device):
     
     return epoch_total_loss, epoch_state_loss, epoch_task_loss, task_accuracy
 
+def split_by_video_ids(dataset, train_ratio=0.8, seed=42):
+    """
+    按视频ID划分数据集，保证同一个视频的所有帧都在同一个集合中
+    """
+    # 提取每个样本的视频ID
+    sample_to_video = {}
+    for i, (img_path, _, _) in enumerate(dataset.samples):
+        # 从图像路径中提取视频ID：.../video_X/img_Y.png
+        video_dir = os.path.dirname(img_path)
+        video_id = int(os.path.basename(video_dir).split('_')[1])
+        sample_to_video[i] = video_id
+    
+    # 获取唯一的视频ID列表
+    unique_video_ids = list(set(sample_to_video.values()))
+    
+    # 随机打乱视频ID
+    np.random.seed(seed)
+    np.random.shuffle(unique_video_ids)
+    
+    # 按比例划分视频ID
+    train_video_count = int(len(unique_video_ids) * train_ratio)
+    train_video_ids = set(unique_video_ids[:train_video_count])
+    test_video_ids = set(unique_video_ids[train_video_count:])
+    
+    # 根据视频ID分配样本索引
+    train_indices = [i for i, vid in sample_to_video.items() if vid in train_video_ids]
+    test_indices = [i for i, vid in sample_to_video.items() if vid in test_video_ids]
+    
+    # 创建子集
+    from torch.utils.data import Subset
+    train_dataset = Subset(dataset, train_indices)
+    test_dataset = Subset(dataset, test_indices)
+    
+    print(f"按视频ID划分: {len(train_video_ids)}个视频({len(train_indices)}帧)用于训练, "
+          f"{len(test_video_ids)}个视频({len(test_indices)}帧)用于测试")
+    return train_dataset, test_dataset
+
 def main():
     # 初始化wandb
     wandb.init(
@@ -242,13 +279,7 @@ def main():
     label_root = LABEL_ROOT  # 替换为实际路径
     dataset = RobotStateDataset(video_root, label_root, transform=transform)
 
-    # 划分训练集和测试集
-    train_size = int(0.8 * len(dataset))
-    test_size = len(dataset) - train_size
-    train_dataset, test_dataset = random_split(
-        dataset, [train_size, test_size],
-        generator=torch.Generator().manual_seed(42)
-    )
+    train_dataset, test_dataset = split_by_video_ids(dataset, train_ratio=0.8, seed=42)
 
     # 创建数据加载器
     train_loader = DataLoader(
