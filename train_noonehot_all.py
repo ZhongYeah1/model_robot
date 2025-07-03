@@ -12,11 +12,11 @@ from PIL import Image
 import numpy as np
 import wandb
 
-WANDB_DIR = "wandb_logs_noonehot"
-BEST_MODEL_DIR = "best_model_noonehot.pth"
+WANDB_DIR = "wandb_logs_noonehot_lr5_all"
+BEST_MODEL_DIR = "best_model_noonehot_lr5_all.pth"
 VIDEO_ROOT = "/cluster/home/ZhongYeah/Vision/DEX-main/SurRoL/surrol/data/video0701"
 LABEL_ROOT = "/cluster/home/ZhongYeah/Vision/DEX-main/SurRoL/surrol/data/label0701"
-WANDBNAME = "train_noonehot"
+WANDBNAME = "train_noonehot_lr5_all"
 
 
 device = torch.device('cuda' if torch.cuda.is_available() else 
@@ -35,20 +35,19 @@ class RobotStateDataset(Dataset):
         video_dirs = sorted([d for d in os.listdir(video_root) if d.startswith('video_')])
         for video_dir in video_dirs:
             idx = int(video_dir.split('_')[1])
-            if 200 <= idx <= 299:
-                label_path = os.path.join(label_root, f'label_{idx}.csv')
-                
-                # 读取标签文件
-                labels = pd.read_csv(label_path, header=None).values.astype(np.float32)
-                
-                # 遍历视频中的每一帧
-                video_path = os.path.join(video_root, video_dir)
-                for frame_idx in range(len(labels)):
-                    img_path = os.path.join(video_path, f'img_{frame_idx}.png')
-                    if os.path.exists(img_path):
-                        # 只提取状态标签
-                        state_label = np.concatenate([labels[frame_idx][:7], labels[frame_idx][10:19]])
-                        self.samples.append((img_path, state_label))
+            label_path = os.path.join(label_root, f'label_{idx}.csv')
+            
+            # 读取标签文件
+            labels = pd.read_csv(label_path, header=None).values.astype(np.float32)
+            
+            # 遍历视频中的每一帧
+            video_path = os.path.join(video_root, video_dir)
+            for frame_idx in range(len(labels)):
+                img_path = os.path.join(video_path, f'img_{frame_idx}.png')
+                if os.path.exists(img_path):
+                    # 只提取状态标签
+                    state_label = np.concatenate([labels[frame_idx][:7], labels[frame_idx][10:19]])
+                    self.samples.append((img_path, state_label))
     
     def __len__(self):
         return len(self.samples)
@@ -190,9 +189,9 @@ def main():
         config={
             "architecture": "ResNet18-StateOnly",
             "dataset": "robot_state",
-            "epochs": 50,
+            "epochs": 100,
             "batch_size": 32,
-            "learning_rate": 0.001,
+            "learning_rate": 0.00001,
             "weight_decay": 1e-5,
             "optimizer": "Adam",
             "scheduler": "ReduceLROnPlateau"

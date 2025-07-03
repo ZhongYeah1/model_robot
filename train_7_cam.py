@@ -12,11 +12,11 @@ from PIL import Image
 import numpy as np
 import wandb
 
-WANDB_DIR = "wandb_logs_noonehot"
-BEST_MODEL_DIR = "best_model_noonehot.pth"
+WANDB_DIR = "wandb_logs_7_cam"
+BEST_MODEL_DIR = "best_model_7_cam.pth"
 VIDEO_ROOT = "/cluster/home/ZhongYeah/Vision/DEX-main/SurRoL/surrol/data/video0701"
 LABEL_ROOT = "/cluster/home/ZhongYeah/Vision/DEX-main/SurRoL/surrol/data/label0701"
-WANDBNAME = "train_noonehot"
+WANDBNAME = "train_7_cam"
 
 
 device = torch.device('cuda' if torch.cuda.is_available() else 
@@ -47,7 +47,7 @@ class RobotStateDataset(Dataset):
                     img_path = os.path.join(video_path, f'img_{frame_idx}.png')
                     if os.path.exists(img_path):
                         # 只提取状态标签
-                        state_label = np.concatenate([labels[frame_idx][:7], labels[frame_idx][10:19]])
+                        state_label = labels[frame_idx][:7]
                         self.samples.append((img_path, state_label))
     
     def __len__(self):
@@ -80,7 +80,7 @@ class RobotStatePredictor(nn.Module):
             nn.Dropout(0.2),
             nn.Linear(128, 64),
             nn.ReLU(),
-            nn.Linear(64, 16)
+            nn.Linear(64, 7)
         )
 
     def forward(self, x):
