@@ -276,10 +276,9 @@ def main():
         if val_loss < best_val_loss:
             best_val_loss = val_loss
             model_path = BEST_MODEL_DIR
-            torch.save({
-                'model_state_dict': model.state_dict(),
-                'config': config
-            }, model_path)
+
+            torch.save(model.state_dict(), model_path)
+            
             wandb.save(model_path)
             wandb.run.summary["best_val_loss"] = best_val_loss
             print(f'Best model saved with val loss: {val_loss:.4f}')
